@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import InviteCard from './components/inviteCard';
+import PuzzlePage from './pages/puzzle-page';
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-    <h1>Hello World</h1>
+      <Routes>
+        <Route path='/' element={<InviteCard />} />
+      </Routes>
     </div>
   );
 }

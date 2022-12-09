@@ -1,0 +1,33 @@
+.wrap-game{
+    width: 100%;
+    height: 100vh;
+    background-color: #F26161;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.surprise-button{
+    width: 10rem;
+    height: 2.7rem;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: black;
+    border-radius: 2px;
+    
+    &::after{
+        content: attr(notifyCount);
+        text-align: center;
+        font-weight: 600;
+        font-size: 13px;
+        width: 19px;
+        height: 19px;
+        border-radius: 100%;
+        background-color: white;
+        right: -7px;
+        top: -7px;
+        position: absolute;
+    }
+}

@@ -1,6 +1,5 @@
 import './App.scss';
 import InviteCard from './components/inviteCard';
-import PuzzlePage from './pages/puzzle-page';
 import { Route, Routes } from "react-router-dom";
 
 function App() {

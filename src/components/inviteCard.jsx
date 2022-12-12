@@ -25,7 +25,7 @@ const InviteCard = () => {
       </div>
       <div className="card-info" />
       <div className="for-love" id="for-love">
-        <p>Oi meu amor, apenas um Mimo de natal desenvolvido por mim. </p>
+        <p>Oi meu amor, Aqui está uma raspadinha que decidirá seu presente. <br/> Apenas um mimo de natal desenvolvido por mim. </p>
 
         <div className="choices">
            <Raspadinhas prizes={['Vale Tattoo Tattoo','Vale R$200 Money', 'Vale Make Make', 'Vale AllStar AllStar']} /> 

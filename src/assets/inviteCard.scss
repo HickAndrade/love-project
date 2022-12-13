@@ -66,7 +66,7 @@
     content: "";
     position: absolute;
     pointer-events: none;
-    margin-top: -7.6rem;
+    /*margin-top: -7.6rem;*/
     transform: rotateX(15deg);
     -webkit-transform: rotateX(15deg);
     border-left: 240px solid transparent;
@@ -163,7 +163,6 @@
     }
     100%{
         transform: translate(0rem, -1rem);
-        -webkit-transform: translate(0rem, -13rem);
         z-index: 100; 
     }
 }

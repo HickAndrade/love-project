@@ -22,30 +22,6 @@
     margin: auto;
     z-index: 100;
     border-radius: 2px;
-    
-
-    &::before{
-        position: absolute;
-        height: 1px;
-        background-color: rgb(216, 69, 69);
-        content: "";
-        width: 16rem;
-        margin-top:-6.5rem;
-        z-index: 20;
-        transform: rotate(21deg);
-        margin-left: -15rem;
-    }
-    &::after{
-        position: absolute;
-        height: 1px;
-        background-color: rgb(216, 69, 69);
-        content: "";
-        z-index: 20;
-        width: 16rem;
-        margin-top:-6.5rem;
-        transform: rotate(-21deg);
-        margin-right: -15rem;
-    }
 }
 
 @keyframes rotateHeart {  

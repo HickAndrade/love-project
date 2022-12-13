@@ -22,9 +22,11 @@ const InviteCard = () => {
   return (
     <div className="invite-card">
       <div className="heart-wrap" id="heart-wrap" onClick={openInvite}>
-        {["rectangle", "left-circle", "right-circle"].map((clsName) => (
-          <div key={clsName} className={clsName} />
-        ))}
+        
+          <div className='rectangle'/>
+          <div className='left-circle' />
+          <div className='right-circle' />
+     
       </div>
       <div className="card-info" />
       <div className="for-love" id="for-love">

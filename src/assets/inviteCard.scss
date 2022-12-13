@@ -66,13 +66,12 @@
     content: "";
     position: absolute;
     pointer-events: none;
-    margin-top: -7.6rem;
+    top: -4.7rem;
     transform: rotateX(15deg);
     -webkit-transform: rotateX(15deg);
     border-left: 240px solid transparent;
     border-right: 240px solid  transparent;
     border-top: 90px solid rgb(78, 78, 78);
-   
 }
 &:hover{
     .rectangle, .left-circle, .right-circle{
@@ -142,7 +141,7 @@
   top: 10px;
   background-color: white;
   z-index: 50;
-    text-align: center;
+  text-align: center;
 }
 
 .open-card-anm{
@@ -155,7 +154,6 @@
 @keyframes up-page {
     0%{
         transform: translate(0rem, 0rem);
-        -webkit-transform: translate(0rem, 0rem);
     }
 
     50%{

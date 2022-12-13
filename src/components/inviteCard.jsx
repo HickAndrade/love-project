@@ -9,12 +9,10 @@ const InviteCard = () => {
     const heartWrap = document.getElementById("heart-wrap");
     const anmPaper = document.getElementById("for-love");
 
-
     heartWrap.classList.toggle('open-heart-anm')
 
     setTimeout(() => {
       anmPaper.classList.toggle('open-card-anm')
-  
     }, 800);
   };
 
@@ -22,11 +20,9 @@ const InviteCard = () => {
   return (
     <div className="invite-card">
       <div className="heart-wrap" id="heart-wrap" onClick={openInvite}>
-        
-          <div className='rectangle'/>
-          <div className='left-circle' />
-          <div className='right-circle' />
-     
+        {["rectangle", "left-circle", "right-circle"].map((clsName) => (
+          <div key={clsName} className={clsName} />
+        ))}
       </div>
       <div className="card-info" />
       <div className="for-love" id="for-love">

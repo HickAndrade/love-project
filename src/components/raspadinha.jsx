@@ -8,6 +8,7 @@ const Raspadinha = ({ prizes }) => {
     useEffect(() => {
         const testing = () => {
 
+            
             prizes.map((prize) => {
                 const resp = prize.split(' ')[2];
 

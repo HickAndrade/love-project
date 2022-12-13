@@ -52,6 +52,7 @@
   align-items: center;
   display: flex;
   z-index: 150;
+  -webkit-transform:translate3d(0,0,0);
   position: absolute;
   transition: all 1s;
 
@@ -155,7 +156,9 @@
     z-index: 100;
   }
   100% {
+    
     transform: translate(0rem, -1rem);
+    -webkit-transform:translate3d(0,0,0);
     z-index: 100;
   }
 }

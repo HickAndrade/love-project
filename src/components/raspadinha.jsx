@@ -6,7 +6,7 @@ import { useEffect } from "react";
 const Raspadinha = ({ prizes }) => {
 
     useEffect(() => {
-        const testing = (prizes) => {
+        const testing = () => {
 
             prizes.map((prize) => {
                 const resp = prize.split(' ')[2];

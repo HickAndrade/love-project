@@ -66,7 +66,7 @@
     content: "";
     position: absolute;
     pointer-events: none;
-    margin-top: -6rem;
+    margin-top: -7.6rem;
     transform: rotateX(15deg);
     -webkit-transform: rotateX(15deg);
     border-left: 240px solid transparent;
@@ -103,7 +103,9 @@
      position: absolute;
      z-index: 20;
      margin-top: -20px;
+    -webkit-margin-top: -20px;
      margin-left: -20px;
+     -webkit-margin-left: -20px;
     }
     .right-circle{
      width: 2.3em;

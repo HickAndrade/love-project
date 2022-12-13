@@ -37,7 +37,7 @@
     }
    
     100%{
-        -webkit-transform: translate(0rem, 0rem) rotateX(0deg);
+        -webkit-transform: rotateX(149deg) translate(0rem, 14.1rem);
         transform: rotateX(149deg) translate(0rem, 14.1rem);
         z-index: 50;
     }
@@ -187,7 +187,7 @@
     border-radius: 2px;
     overflow: hidden;
     z-index: -2;
-    &::after{ 
+    &::after{
         rotate: 35deg;
         margin: auto;
         display: flex;

@@ -38,6 +38,13 @@
     }
 }
 
+
+.open-heart-anm{
+    -webkit-animation: rotateHeart 1.5s forwards;
+    animation: rotateHeart 1.5s forwards;
+    
+}
+
 .heart-wrap{
     margin: auto;
     height: 60px;
@@ -49,6 +56,7 @@
     position: absolute;
     transition: all 1s;
     
+
 &::before{
     content: "";
     position: absolute;
@@ -124,6 +132,13 @@
   z-index: 50;
     text-align: center;
 }
+
+.open-card-anm{
+    -webkit-animation: up-page 2s forwards;
+    animation: up-page 2s forwards;
+}
+
+
 
 @keyframes up-page {
     0%{

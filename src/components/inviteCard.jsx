@@ -9,9 +9,12 @@ const InviteCard = () => {
     const heartWrap = document.getElementById("heart-wrap");
     const anmPaper = document.getElementById("for-love");
 
-    heartWrap.style.animation = "rotateHeart 1.5s forwards";
+
+    heartWrap.classList.toggle('open-heart-anm')
+
     setTimeout(() => {
-      anmPaper.style.animation = "up-page 2s forwards";
+      anmPaper.classList.toggle('open-card-anm')
+  
     }, 800);
   };
 

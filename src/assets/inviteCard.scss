@@ -66,7 +66,7 @@
     content: "";
     position: absolute;
     pointer-events: none;
-    margin-top: -7.6rem;
+    margin-top: -6rem;
     transform: rotateX(15deg);
     -webkit-transform: rotateX(15deg);
     border-left: 240px solid transparent;
@@ -78,6 +78,7 @@
     .rectangle, .left-circle, .right-circle{
         background-color: rgb(255, 115, 115);
         cursor: pointer;
+        position: absolute;
     }
 }
 

@@ -3,15 +3,18 @@
     0% {
       opacity: 0;
       transform: translateY(0rem);
+      -webkit-transform: translateY(0rem);
     }
     100% {
       opacity: 1;
       transform: translateY(1rem);
+      -webkit-transform: translateY(0rem);
     }
   }
 
 .invite-card{
     animation: showing-invite 0.7s forwards;
+    -webkit-animation: showing-invite 0.7s forwards;
     position: relative;
     display: flex;
     background-color: rgb(27, 27, 27);
@@ -30,9 +33,11 @@
 @keyframes rotateHeart {  
     0%{
         transform: translate(0rem, 0rem) rotateX(0deg);
+        -webkit-transform: translate(0rem, 0rem) rotateX(0deg);
     }
    
     100%{
+        -webkit-transform: translate(0rem, 0rem) rotateX(0deg);
         transform: rotateX(149deg) translate(0rem, 14.1rem);
         z-index: 50;
     }
@@ -63,6 +68,7 @@
     pointer-events: none;
     margin-top: -7.6rem;
     transform: rotateX(15deg);
+    -webkit-transform: rotateX(15deg);
     border-left: 240px solid transparent;
     border-right: 240px solid  transparent;
     border-top: 90px solid rgb(78, 78, 78);
@@ -79,6 +85,7 @@
         position: relative;
         height: 2.3em;
         transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
         width: 2.3rem;
         border-radius: 5px 5px 1px 5px;
         background-color: red;
@@ -89,6 +96,7 @@
      background-color: red;
      transition: background-color .2s;
      height: 3rem;
+     -webkit-transform: rotate(-40deg);
      transform: rotate(-40deg);
      border-radius: 100%;
      position: absolute;
@@ -101,6 +109,7 @@
      background-color: red;
      transition: background-color .2s;
      height: 3rem;
+     -webkit-transform:rotate(40deg);
      transform: rotate(40deg);
      border-radius: 100%;
      position: absolute;
@@ -143,15 +152,18 @@
 @keyframes up-page {
     0%{
         transform: translate(0rem, 0rem);
+        -webkit-transform: translate(0rem, 0rem);
     }
 
     50%{
         transform: translate(0rem, -13rem);
+        -webkit-transform: translate(0rem, -13rem);
         height: 190px;
         z-index: 100; 
     }
     100%{
         transform: translate(0rem, -1rem);
+        -webkit-transform: translate(0rem, -13rem);
         z-index: 100; 
     }
 }

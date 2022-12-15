@@ -31,7 +31,9 @@
     transform: translate(0rem, 0rem) rotateX(0deg);
     -webkit-transform: translate(0rem, 0rem) rotateX(0deg);
   }
-
+50%{
+    z-index: 50;
+}
   100% {
     -webkit-transform: rotateX(149deg) translate(0rem, 14.1rem);
     transform: rotateX(149deg) translate(0rem, 14.1rem);
@@ -54,8 +56,7 @@
   z-index: 150;
   position: absolute;
   transition: all 1s;
-  -webkit-transform: translate3d(0,0,0);
-  z-index: 999;
+
   &::before {
     content: "";
     position: absolute;
@@ -152,7 +153,8 @@
   50% {
     transform: translate(0rem, -13rem);
     -webkit-transform: translate(0rem, -13rem);
-    height: 190px;
+  }
+  60%{
     z-index: 100;
   }
   100% {

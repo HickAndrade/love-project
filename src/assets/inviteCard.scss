@@ -52,8 +52,6 @@
   align-items: center;
   display: flex;
   z-index: 150;
-  transform: translate3d(0, 0, 2000px);
-  -webkit-transform:translate3d(0,0,2000px);
   position: absolute;
   transition: all 1s;
 
@@ -62,6 +60,8 @@
     position: absolute;
     pointer-events: none;
     top: -4.7rem;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform:translate3d(0,0,0);
     transform: rotateX(15deg);
     -webkit-transform: rotateX(15deg);
     border-left: 240px solid transparent;

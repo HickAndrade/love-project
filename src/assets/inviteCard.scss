@@ -54,7 +54,8 @@
   z-index: 150;
   position: absolute;
   transition: all 1s;
-
+  transform: translate3d(0,0,1500px);
+  -webkit-transform: translate3d(0,0,1500px);
   &::before {
     content: "";
     position: absolute;
@@ -124,8 +125,8 @@
   border-right: 240px solid rgb(161, 45, 45);
   border-top: 90px solid transparent;
   z-index: 100;
-  transform: translate3d(0,0,1200px);
-  -webkit-transform: translate3d(0,0,1200px);
+  transform: translate3d(0,0,1000px);
+  -webkit-transform: translate3d(0,0,1000px);
   width: 200px;
 }
 

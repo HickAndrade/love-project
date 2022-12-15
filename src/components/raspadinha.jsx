@@ -7,12 +7,10 @@ import scratchRsp from '../assets/images/scratch.jpeg'
 const Raspadinha = ({ prizes }) => {
 
     useEffect(() => {
-        const testing = () => {
-
-            
+        const testing = () => {    
             prizes.map((prize) => {
                 const resp = prize.split(' ')[2];
-
+    
                 let a = new ScratchCard(`#${resp}`, {
                     scratchType: SCRATCH_TYPE.SPRAY,
                     containerWidth: 69,
@@ -24,15 +22,14 @@ const Raspadinha = ({ prizes }) => {
                     callback: function () {}
                     
                 });
-
+    
                 a.init();
-
+    
             })
-
         };
-
-        window.onload = () => testing();
-    }, []);
+         testing(); 
+        
+        }, []);
 
     return (
         <>

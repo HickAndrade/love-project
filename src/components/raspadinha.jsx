@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/inviteCard.scss";
 import { ScratchCard, SCRATCH_TYPE } from "scratchcard-js";
 import { useEffect } from "react";
+import scratchRsp from '../assets/images/scratch.jpeg'
 
 const Raspadinha = ({ prizes }) => {
 
@@ -16,10 +17,12 @@ const Raspadinha = ({ prizes }) => {
                     scratchType: SCRATCH_TYPE.SPRAY,
                     containerWidth: 69,
                     containerHeight: 61,
-                    imageForwardSrc: "https://source.unsplash.com/cPZ21gvclO8/300x300",
+                    imageForwardSrc: scratchRsp,
                     clearZoneRadius: 80,
                     nPoints: 30,
                     pointSize: 4,
+                    callback: function () {}
+                    
                 });
 
                 a.init();

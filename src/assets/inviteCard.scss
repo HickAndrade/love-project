@@ -124,6 +124,8 @@
   border-right: 240px solid rgb(161, 45, 45);
   border-top: 90px solid transparent;
   z-index: 100;
+  transform: translate3d(0,0,1200px);
+  -webkit-transform: translate3d(0,0,1200px);
   width: 200px;
 }
 
@@ -155,8 +157,8 @@
     -webkit-transform: translate(0rem, -13rem) translate3d(0, 0, 1000px);
   }
   100% {
-    transform: translate(0rem, -1rem) translate3d(0, 0, 1000px);
-    -webkit-transform: translate(0rem, -1rem) translate3d(0, 0, 1000px);
+    transform: translate(0rem, -1rem) translate3d(0, 0, 1300px);
+    -webkit-transform: translate(0rem, -1rem) translate3d(0, 0, 1300px);
     z-index: 100;
   }
 }

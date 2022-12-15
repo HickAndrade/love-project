@@ -95,14 +95,15 @@
     background-color: red;
     transition: background-color 0.2s;
     height: 3rem;
-    -webkit-transform: rotate(-40deg);
-    transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg) translate3d(0,0,1050px);
+    transform: rotate(-40deg) translate3d(0,0,1050px);
     border-radius: 100%;
     position: absolute;
     display: block;
     z-index: 20;
     top: -4px;
     left: 2px;
+    
   }
   .right-circle {
     width: 2.3em;
@@ -110,8 +111,8 @@
     background-color: red;
     transition: background-color 0.2s;
     height: 3rem;
-    -webkit-transform: rotate(40deg);
-    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg) translate3d(0,0,1050px);
+    transform: rotate(40deg) translate3d(0,0,1050px);
     border-radius: 100%;
     position: absolute;
     z-index: 20;

@@ -18,7 +18,7 @@
   display: flex;
   background-color: rgb(27, 27, 27);
   height: 13rem;
-  width: 30rem;
+  width: 26rem;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -65,8 +65,8 @@
     transform: translate3d(0,0,0);
     -webkit-transform: translate3d(0,0,0);
     -webkit-transform: rotateX(15deg);
-    border-left: 240px solid transparent;
-    border-right: 240px solid transparent;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
     border-top: 90px solid rgb(78, 78, 78);
   }
   &:hover {
@@ -126,8 +126,8 @@
   position: relative;
   margin-top: 0rem;
   height: 7.3rem;
-  border-left: 240px solid rgb(121, 34, 34);
-  border-right: 240px solid rgb(161, 45, 45);
+  border-left: 210px solid rgb(121, 34, 34);
+  border-right: 210px solid rgb(161, 45, 45);
   border-top: 90px solid transparent;
   z-index: 100;
   transform: translate3d(0,0,1000px);
@@ -138,7 +138,7 @@
 .for-love {
   position: absolute;
   height: 190px;
-  width: 480px;
+  width: 416px;
   right: 0px;
   top: 10px;
   background-color: white;
